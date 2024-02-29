@@ -264,7 +264,7 @@ function AddEvent(){
                                 <div className="col-sm-8">
                                     {/* <input type="text" name="eventname" value={event.eventname} onChange={handleInput} className="form-control" /> */}
                                     <textarea className="form-control"   name="pickupanddroplocation" value={event.pickupanddroplocation} onChange={handleInput} style={{resize:"none"}}
-                                        placeholder="Enter your pipckup and drop location"
+                                        placeholder="Enter your Pickup and Drop location"
                                         required
                                     ></textarea>
                                      {errors.pickupandDropLocation && <small className="text-danger float-right">{errors.pickupandDropLocation}</small>}

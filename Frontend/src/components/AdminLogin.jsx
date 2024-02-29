@@ -63,7 +63,7 @@ function AdminLogin(){
             <div className="col-sm-6 mx-auto" style={{ height:"563px" }}>
 
 
-                <h4 className="text-center p-1" style={{ color:"black" }}>
+                <h4 className="text-center p-1" style={{ color:"black",fontFamily:"Lora",fontWeight:"900" }}>
                     Admin Login 
                 </h4>
                 <form onSubmit={handleSubmit}>                 

@@ -9,9 +9,9 @@ function LoginRegisterMenu(){
                 Login
                 </Link>
                 <div className="dropdown-menu text-dark " aria-labelledby="navbarDropdownMenuLink" >
-                <Link className="dropdown-item " to="/alogin">Admin</Link>
-                <Link className="dropdown-item " to="/slogin">Guide</Link>                        
-                <Link className="dropdown-item " to="/clogin">Customer</Link>                        
+                <Link className="dropdown-item text-dark navbar-brand fs-1" to="/alogin">Admin</Link>
+                <Link className="dropdown-item text-dark navbar-brand fs-1" to="/slogin">Guide</Link>                        
+                <Link className="dropdown-item text-dark navbar-brand fs-1" to="/clogin">Customer</Link>                        
                 </div>
             </li>
             <li className="nav-item dropdown">

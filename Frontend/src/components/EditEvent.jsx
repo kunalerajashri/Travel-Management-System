@@ -153,15 +153,15 @@ function EditEvent(){
                                     {errors.noofdays && <small className="text-danger float-right">{errors.noofdays}</small>}
                                 </div>                                
                             </div>    
-                            <div className="form-group form-row">
-                                <label className="col-sm-4 form-control-label font-weight-bold">Daily Schedule</label>
-                                <div className="col-sm-8">
+                            {/* <div className="form-group form-row"> */}
+                                {/* <label className="col-sm-4 form-control-label font-weight-bold">Daily Schedule</label> */}
+                                {/* <div className="col-sm-8"> */}
                                     {/* <input type="text" name="eventname" value={event.eventname} onChange={handleInput} className="form-control" /> */}
-                                    <textarea className="form-control" rows="5"  name="dailywiseschedule" value={product.dailywiseschedule} onChange={handleInput} style={{resize:"none"}}></textarea>
-                                    {errors.dailywiseschedule && <small className="text-danger float-right">{errors.dailywiseschedule}</small>}
-                                </div>
+                                    {/* <textarea className="form-control" rows="5"  name="dailywiseschedule" value={product.dailywiseschedule} onChange={handleInput} style={{resize:"none"}}></textarea> */}
+                                    {/* {errors.dailywiseschedule && <small className="text-danger float-right">{errors.dailywiseschedule}</small>} */}
+                                {/* </div> */}
                                 
-                            </div>    
+                            {/* </div>     */}
                             <div className="form-group form-row">
                                 <label className="col-sm-4 form-control-label font-weight-bold">Things to Carry</label>
                                 <div className="col-sm-8">

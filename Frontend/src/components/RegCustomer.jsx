@@ -3,6 +3,7 @@ import { useEffect, useState } from "react"
 import { useHistory } from "react-router-dom"
 import uservalidation from "../uservalidation"
 import ReCAPTCHA from "react-google-recaptcha";
+// import { toast } from "react-toastify";
 
 function RegCustomer()
 {
@@ -28,7 +29,8 @@ function RegCustomer()
         e.preventDefault()
         setErrors(uservalidation(user)) 
         if(!user.gender){
-            errors.gender="Gender is required"
+            // errors.gender="Gender is required"
+            // toast.error("Gender Is Required")
         }
         setSubmitted(true)      
     }
@@ -68,7 +70,7 @@ function RegCustomer()
 
        
        <div className="col-sm-6 mx-auto" style={{ height:"563px" }}>
-                    <h4 className="text-center p-2  " style={{ color:"black" }}>
+                    <h4 className="text-center p-2  " style={{ color:"black",fontFamily:"Lora",fontWeight:"900" }}>
                         Customer Registration Form
                     </h4>
                     <form onSubmit={handleSubmit}>
@@ -115,7 +117,7 @@ function RegCustomer()
                         <label className="col-sm-4 form-control-label font-weight-bold">Email Id</label>
                         <div className="col-sm-8">
                             <input type="email" name="userid" value={user.userid} onChange={handleInput} className="form-control"
-                             placeholder="example@gmail.com"
+                             placeholder="Example@gmail.com"
                              pattern="[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{1,63}$"
                              required
                             />
@@ -155,7 +157,7 @@ function RegCustomer()
                         <label className="col-sm-4 form-control-label font-weight-bold">Confirm Password</label>
                         <div className="col-sm-8">
                             <input type="password" name="cpwd" value={user.cpwd} onChange={handleInput} className="form-control" 
-                            placeholder="Enter Confirm Password"
+                            placeholder="Confirm Password"
                             minLength="8"
                             required
                             />
@@ -164,7 +166,7 @@ function RegCustomer()
                     </div>
 
                    
-                    <button className="btn btn-primary" >Register Now</button>
+                    <button className="btn btn-primary" style={{marginLeft: '18rem', marginTop: '1.5rem'}}>Register Now</button>
 
                     </form>
                 </div>

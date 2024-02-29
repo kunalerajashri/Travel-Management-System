@@ -23,7 +23,7 @@ function NavBar(){
                         <Link className="nav-link text-dark navbar-brand fs-1" to="/">Home</Link>
                     </li>
                     <li className="nav-item dropdown">
-                        <Link className="nav-link dropdown-toggle text-dark fw-bold" to="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <Link className="nav-link dropdown-toggle text-dark navbar-brand fs-1" to="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Categories
                         </Link>
                         <div className="dropdown-menu text-dark fs-1" aria-labelledby="navbarDropdownMenuLink">

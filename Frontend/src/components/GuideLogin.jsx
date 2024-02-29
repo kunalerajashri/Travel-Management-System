@@ -89,7 +89,7 @@ function GuideLogin(){
 
                    
 
-                    <button className="btn btn-primary float-left ">Login Now</button>
+                    <button className="btn btn-primary float-right mt-3" style={{ marginRight:"340px" }}>Login Now</button>
 
                         </div>              
                     

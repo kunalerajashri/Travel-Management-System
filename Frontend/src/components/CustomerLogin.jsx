@@ -52,7 +52,7 @@ function CustomerLogin() {
                     <div className="form-group form-row">
                         <label className="col-sm-8 form-control-label font-weight-bold">Email Id</label>
                         <div className="col-sm-10">
-                            <input type="text float-right" name="userid" placeholder="name@example.com" value={user.userid} onChange={handleInput} className="form-control" />
+                            <input type="text float-right" name="userid" placeholder="Enter your email" value={user.userid} onChange={handleInput} className="form-control" />
                             {errors.userid && <small className="text-danger float-right">{errors.userid}</small>}
                         </div>
                     </div>
@@ -63,7 +63,7 @@ function CustomerLogin() {
                             {errors.pwd && <small className="text-danger float-right">{errors.pwd}</small>}
                         </div>
                     </div>
-                    <button className="btn btn-primary float-left" style={{ marginLeft: "470px" }}>Login Now</button>
+                    <button className="btn btn-primary float-right mt-3" style={{ marginRight:"340px" }}>Login Now</button>
                 </form>
             </div>
         </div>

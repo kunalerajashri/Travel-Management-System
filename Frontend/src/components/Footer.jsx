@@ -65,7 +65,7 @@ function Footer(){
               {/* <p><i className="fas fa-home mr-3"></i>CDAC NOIDA </p> */}
               <p><i className="fas fa-envelope mr-3"></i> rajashrikunale@gmail.com</p>
               <p><i className="fas fa-envelope mr-3"></i> toshmikr15797@gmail.com</p>
-              <p><i className="fas fa-envelope mr-3"></i> rajashrikunale@gmail.com</p>
+              <p><i className="fas fa-envelope mr-3"></i> somanshu5976@gmail.com</p>
             </div>
        
           </div>

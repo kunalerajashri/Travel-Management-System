@@ -35,7 +35,7 @@ function AdminProfile(){
           <h4  style={{color:"black",borderBottom:"2px solid green",width:"300px",margin:"auto",fontFamily:"Lora"}}>Admin Profile Page</h4>
 
                 <br/>
-                <h4 style={{fontFamily:"Lora"}}>Welcome {user.uname}</h4>
+                <h4 style={{fontFamily:"Lora",fontWeight:"900"}}>Welcome {user.uname}</h4>
             </div>
         </div>
         </div>

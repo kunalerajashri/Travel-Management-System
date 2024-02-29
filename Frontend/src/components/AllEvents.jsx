@@ -178,11 +178,11 @@ function AllEvents(){
                                     <h5 className="px-2">Category: {item.eventcat}</h5>
                                     <h5 className="px-2">Guide: {item.guideName}</h5>
                                     <h5 className="px-2">Price: &#8377; {item.price}</h5>
-                                    <h5 className="px-2">No of Days: ; {item.noofdays}</h5>
-                                    <h5 className="px-2">Description :</h5><h6>{item.description}</h6>
+                                    <h5 className="px-2">No of Days:  {item.noofdays}</h5>
+                                    <h5 className="px-2">Description :</h5><p>{item.description}</p>
                                     
-                                    <h5 className="px-2">Day Wise Schedule :</h5><h6>{item.dailywiseschedule}</h6>
-                                    <h5 className="px-2">Things to carry :</h5><h6>{item.thingstocarry}</h6>
+                                    {/* <h5 className="px-2">Day Wise Schedule :</h5><h6>{item.dailywiseschedule}</h6> */}
+                                    <h5 className="px-2">Things to carry :</h5><p>{item.thingstocarry}</p>
                                     {/* <h5 className="px-2">description :{item.description}</h5> */}
                                     
                                     {/* <h5 className="px-2">Price: &#8377; {item.price}</h5>

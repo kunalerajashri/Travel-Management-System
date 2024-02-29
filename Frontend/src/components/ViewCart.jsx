@@ -128,19 +128,23 @@ function ViewCart(){
                 <div className="form-group form-row">
                     <label className="col-sm-4 form-control-label font-weight-bold">State</label>
                     <div className="col-sm-8">
-                        <input type="text" name="state" required value={address.state} onChange={handleAddressInput} className="form-control" />
+                        <input type="text" name="state" required value={address.state} onChange={handleAddressInput} className="form-control"
+                         placeholder="Enter State" />
                     </div>                        
                 </div>
                 <div className="form-group form-row">
                     <label className="col-sm-4 form-control-label font-weight-bold">Zip</label>
                     <div className="col-sm-8">
-                        <input type="text" name="zip" required value={address.zip} onChange={handleAddressInput} className="form-control" />                        
+                        <input type="text" name="zip" required value={address.zip} onChange={handleAddressInput} className="form-control"
+                         placeholder="Enter Zip"
+                        />                        
                     </div>                        
                 </div>
                 <div className="form-group form-row">
                     <label className="col-sm-4 form-control-label font-weight-bold">Country</label>
                     <div className="col-sm-8">
-                        <input type="text" name="country" required value={address.country} onChange={handleAddressInput} className="form-control" />                       
+                        <input type="text" name="country" required value={address.country} onChange={handleAddressInput} className="form-control" 
+                         placeholder="Enter Country"/>                       
                     </div>                        
                 </div>
 
@@ -148,7 +152,8 @@ function ViewCart(){
                 <div className="form-group form-row">
                     <label className="col-sm-4 form-control-label font-weight-bold">Card No</label>
                     <div className="col-sm-8">
-                        <input type="text" name="cardno" value={payment.cardno} onChange={handlePaymentInput} className="form-control" maxLength="16" required/>                        
+                        <input type="text" name="cardno" value={payment.cardno} onChange={handlePaymentInput} className="form-control" maxLength="16" required
+                         placeholder="Enter Card No"/>                        
                     </div>                        
                 </div>
                 <div className="form-group form-row">
@@ -156,7 +161,7 @@ function ViewCart(){
                     <div className="col-sm-8">
                         <input type="text" name="nameoncard" value={payment.nameoncard} onChange={handlePaymentInput} className="form-control" 
                         required                        
-                        />                        
+                        placeholder="Enter Name" />                        
                     </div>                        
                 </div>
                 <div className="form-group form-row">
@@ -180,7 +185,7 @@ function ViewCart(){
                         />                        
                     </div>                        
                 </div>                
-                <button className="btn btn-success float-right " >Place Order</button>
+                <button className="btn btn-success float-right "style={{marginRight:"50px"}} >Book Now</button>
                 </form>
             </div>
              </div > : <h1 className="font-weight-bold" style={{ marginLeft:"500px" }}>No Bookings Available</h1>} 

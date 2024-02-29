@@ -2,7 +2,7 @@ const eventvalidation=(values)=>{
     let errors={}
     let date= new Date();
         console.log("Before "+date)
-        date.setDate(date.getDate()+10)
+        date.setDate(date.getDate()+1)
         console.log("after "+date)
         var todayDate = date.toISOString().slice(0, 10);
         console.log("formated :"+todayDate);

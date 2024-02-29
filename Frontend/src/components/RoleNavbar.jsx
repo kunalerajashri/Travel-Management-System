@@ -57,21 +57,21 @@ const RoleNavbar=({isLoggedIn})=>{
     return (
         <ul className="navbar-nav ml-auto" style={{ marginLeft:"850px" }}>             
         <li className="nav-item active">
-            <Link className="nav-link text-dark fw-bold" to="/aprofile">Profile</Link>
+            <Link className="nav-link text-dark navbar-brand fs-1" to="/aprofile">Profile</Link>
         </li>
         <li className="nav-item active text-dark fw-bold">
 
-            <Link className="nav-link text-dark fw-bold" to="/guides">Guide</Link>
+            <Link className="nav-link text-dark navbar-brand fs-1" to="/guides">Guide</Link>
 
         </li>
         <li className="nav-item active">
-            <Link className="nav-link text-dark fw-bold" to="/customers">Customers</Link>
+            <Link className="nav-link text-dark navbar-brand fs-1" to="/customers">Customers</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link text-dark fw-bold" to="/bookings">Booking</Link>
+            <Link className="nav-link text-dark navbar-brand fs-1" to="/bookings">Booking</Link>
         </li>
         <li className="nav-item active">
-            <Link className="nav-link text-dark " onClick={logout} to="#">Logout</Link>
+            <Link className="nav-link text-dark navbar-brand fs-1" onClick={logout} to="#">Logout</Link>
         </li>        
         </ul>
     )

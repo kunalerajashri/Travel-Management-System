@@ -59,7 +59,7 @@ function RegSupplier()
 
        
         <div className="col-sm-6 mx-auto" style={{ height:"563px" }}>
-                     <h4 className="text-center p-2  " style={{ color:"black" }}>
+                     <h4 className="text-center p-2  " style={{ color:"black",fontFamily:"Lora",fontWeight:"900" }}>
                         Guide Registration Form
                     </h4>
                     <form onSubmit={handleSubmit} className="needs-validation" novalidate>
@@ -139,7 +139,7 @@ function RegSupplier()
 
                         <div className="col-sm-8">
                             <input type="password" name="cpwd" value={user.cpwd} onChange={handleInput} className="form-control" 
-                                placeholder="Enter Confirm Password"
+                                placeholder="Confirm Password"
                                 minLength="8"
                                 required
                             />

@@ -8,7 +8,7 @@ const Video = () =>{
         <video src={video2} autoPlay loop muted style={{ filter: 'blur(2px)' }} />
 
         <div className="content">
-        <h1 style={{fontFamily:"Playfair Display",textAlign:"center"}}>It's Time To Travel...</h1>
+        <h1 style={{fontFamily:"Playfair Display",textAlign:"center",fontweight: "bold"}}>It's Time To Travel...</h1>
         </div>
         </div>
     )
