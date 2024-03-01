@@ -27,7 +27,7 @@ function NavBar(){
                         Categories
                         </Link>
                         <div className="dropdown-menu text-dark fs-1" aria-labelledby="navbarDropdownMenuLink">
-                        <Link className="dropdown-item" to="/cats?cat=Himalyan Treks">Himalyan Treks</Link>
+                        <Link className="dropdown-item" to="/cats?cat=Himalyan Treks">Himalayan Treks</Link>
                         <Link className="dropdown-item" to="/cats?cat=Jungle Safari">Jungle Safari</Link>                        
                         <Link className="dropdown-item" to="/cats?cat=Local Treks">Local Treks</Link>                        
                         <Link className="dropdown-item" to="/cats?cat=Biking">Biking</Link>                        

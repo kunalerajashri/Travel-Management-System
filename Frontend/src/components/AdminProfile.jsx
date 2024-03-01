@@ -32,10 +32,10 @@ function AdminProfile(){
         
         <div className="col-sm-6 mx-auto  " style={{ height:"600px", }}>
           <div className=" text-center p-4 font-weight-bold ">
-          <h4  style={{color:"black",borderBottom:"2px solid green",width:"300px",margin:"auto",fontFamily:"Lora"}}>Admin Profile Page</h4>
+          {/* <h4  style={{color:"black",borderBottom:"2px solid green",width:"300px",margin:"auto",fontFamily:"Lora"}}>Admin Profile Page</h4> */}
 
                 <br/>
-                <h4 style={{fontFamily:"Lora",fontWeight:"900"}}>Welcome {user.uname}</h4>
+                <h1 style={{fontFamily:"Lora",fontWeight:"900", fontSize: '5rem'}}>Welcome {user.uname}</h1>
             </div>
         </div>
         </div>

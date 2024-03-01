@@ -30,18 +30,18 @@ function AllGuides(){
     return (
         <div className="bg-transparent  text-black" style={{  backgroundImage: `url("http://www.thewowstyle.com/wp-content/uploads/2015/02/the-river-in-valley-of-beautiful-mountains-hd-wallpaper-75015.jpg")`}}> 
         
-        <div className="col-sm-6 mx-auto " style={{ height:"563px" }}>
+        <div className="col" style={{ height:"563px" }}>
 
-            <h4 className="p-2 text-center">All Guide</h4>
+            <h1 className="p-2 text-center text-uppercase">All Guides</h1>
 
-            <table className="table table-danger table-striped table-hover" style={{ marginLeft:"-225px" }}>
+            <table className="table table-danger table-striped table-hover">
                 <thead className="table-dark">
                     <tr>
-                        <th>Id</th>
-                        <th>Name</th>
-                        <th>City</th>
-                        <th>Phone</th>
-                        <th>User Id</th>
+                        <th className="text-center">Id</th>
+                        <th className="text-center">Name</th>
+                        <th className="text-center">City</th>
+                        <th className="text-center">Phone</th>
+                        <th className="text-center">User Id</th>
                         {/* <th>Password</th> */}
                        
                     </tr>
@@ -49,11 +49,11 @@ function AllGuides(){
                 <tbody>
                 {guides.map(x=>(
                     <tr key={x.id}>
-                        <td>{x.id}</td>
-                        <td>{x.name}</td>
-                        <td>{x.city}</td>
-                        <td>{x.phone}</td>
-                        <td>{x.userid}</td>
+                        <td className="text-center">{x.id}</td>
+                        <td className="text-center">{x.name}</td>
+                        <td className="text-center">{x.city}</td>
+                        <td className="text-center">{x.phone}</td>
+                        <td className="text-center">{x.userid}</td>
                         {/* <td>{x.pwd}</td> */}
                         {/* <td><button onClick={(e)=>deleteSeller(x.id)} className="btn btn-danger btn-sm">Delete</button></td> */}
                     </tr>

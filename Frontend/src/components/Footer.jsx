@@ -5,10 +5,10 @@ import { Link } from "react-router-dom";
 function Footer(){
   return(
     <>
-    <div className="container-fluid  my-5 bg-info text-light" style={{backgroundColor: "#1c2331;",marginTop:"0px"}}>
+    <div className="container-fluid  my-5 bg-info text-light" style={{backgroundColor: "#39014E",marginTop:"0px"}}>
 
     <footer className="bd-footer py-4 py-md-5 mt-5"
-            style={{backgroundColor: "#1c2331;"}}
+            style={{backgroundColor: "#39014E"}}
             >
      <div className="container py-4 py-md-5 px-4 px-md-3">      
       <section className="">
@@ -40,10 +40,10 @@ function Footer(){
                 style={{width: "60px", backgroundColor: "#7c4dff", height: "2px"}}
               />
               <p>
-                <Link to="">Home</Link>
+                <Link to="/">Home</Link>
               </p>
               <p>
-                <Link to="">category</Link>
+                <Link to="">Category</Link>
               </p>
               <p>
                 <Link to="" >Login</Link>
@@ -60,7 +60,7 @@ function Footer(){
               <h5 className="text-uppercase fw-bold">Contact</h5>
               <hr
                 className="mb-4 mt-0 d-inline-block mx-auto"
-                style={{width: "60px", backgroundColor: "#7c4dff", height: "2px"}}
+                style={{width: "60px", backgroundColor: "#39014E", height: "2px"}}
                 />
               {/* <p><i className="fas fa-home mr-3"></i>CDAC NOIDA </p> */}
               <p><i className="fas fa-envelope mr-3"></i> rajashrikunale@gmail.com</p>

@@ -48,7 +48,7 @@ function CustomerProfile(){
         
         <div className="col-sm-6 mx-auto " style={{ height:"650px" }}>
           
-            <div className="  bg-transparent text-black text-center">
+           {/*  <div className="  bg-transparent text-black text-center">
                 <h4 className="p-2" style={{borderBottom:"2px solid green",width:"300px",margin:"auto"}}>Customer Profile Page</h4>
                 <br/>
                 <h4>Welcome {user.name}</h4>
@@ -56,7 +56,7 @@ function CustomerProfile(){
                 <h5>Email Id : {user.userid}</h5>
                 <h5>Contact No : {user.phone}</h5>
         
-        </div>
+        </div> */}
         <hr/>
            
                 <div className="col-sm-12 mx-auto" style={{ marginLeft:"-500px" }}>
